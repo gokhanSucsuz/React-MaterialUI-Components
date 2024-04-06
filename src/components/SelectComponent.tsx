@@ -1,6 +1,8 @@
 import {
 	Box,
+	InputLabel,
 	MenuItem,
+	OutlinedInput,
 	Select,
 	SelectChangeEvent,
 	TextField,
@@ -60,12 +62,14 @@ export const SelectComponent = () => {
 					<MenuItem value="FR">France</MenuItem>
 					<MenuItem value="USA">United States of America</MenuItem>
 				</TextField>
+				<InputLabel id="demo-label">Country</InputLabel>
 				<Select
+					labelId="demo-label"
 					multiple
 					variant="standard"
 					value={countries}
 					select
-					label="Multiple Select your Country"
+					input={<OutlinedInput label="Country" />}
 					fullWidth
 					onChange={handleChangeMultiple2}>
 					<MenuItem value="TR">Turkiye</MenuItem>
