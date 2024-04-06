@@ -7,6 +7,7 @@ import Typography from "./components/Typography";
 import { TextFieldPage } from "./components/TextFieldPage";
 import { RadioButtonElement } from "./components/RadioButtonElement";
 import { RadioGroupExample } from "./components/RadioGroupExample";
+import { SelectComponent } from "./components/SelectComponent";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/textfield" element={<TextFieldPage />} />
 					<Route path="/radiogroup" element={<RadioButtonElement />} />
 					<Route path="/radiogroupexample" element={<RadioGroupExample />} />
+					<Route path="/select" element={<SelectComponent />} />
 				</Routes>
 			</Container>
 		</>
