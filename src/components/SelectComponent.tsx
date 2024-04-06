@@ -67,8 +67,8 @@ export const SelectComponent = () => {
 					labelId="demo-label"
 					multiple
 					variant="standard"
+					defaultValue="x"
 					value={countries}
-					select
 					input={<OutlinedInput label="Country" />}
 					fullWidth
 					onChange={handleChangeMultiple2}>
