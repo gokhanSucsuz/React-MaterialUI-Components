@@ -8,6 +8,7 @@ import { TextFieldPage } from "./components/TextFieldPage";
 import { RadioButtonElement } from "./components/RadioButtonElement";
 import { RadioGroupExample } from "./components/RadioGroupExample";
 import { SelectComponent } from "./components/SelectComponent";
+import { CheckBoxComponent } from "./components/CheckBoxComponent";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 					<Route path="/radiogroup" element={<RadioButtonElement />} />
 					<Route path="/radiogroupexample" element={<RadioGroupExample />} />
 					<Route path="/select" element={<SelectComponent />} />
+					<Route path="/checkbox" element={<CheckBoxComponent />} />
 				</Routes>
 			</Container>
 		</>
