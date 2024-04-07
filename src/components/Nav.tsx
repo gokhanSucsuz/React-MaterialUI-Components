@@ -188,6 +188,22 @@ export const Nav = () => {
 								</Button>
 							</AccordionActions>
 						</Accordion>
+						<Accordion>
+							<AccordionSummary
+								aria-controls="panel3-content"
+								id="panel3-header">
+								Card
+							</AccordionSummary>
+							<AccordionActions>
+								<Button variant="contained">
+									<NavLink
+										to="/card"
+										style={{ color: "inherit", textDecoration: "none" }}>
+										Card
+									</NavLink>
+								</Button>
+							</AccordionActions>
+						</Accordion>
 					</Stack>
 				</div>
 			</Box>

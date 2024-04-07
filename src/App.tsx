@@ -13,6 +13,7 @@ import { AutoCompleteComponent } from "./components/AutoCompleteComponent";
 import { BoxComponent } from "./components/BoxComponent";
 import { StackComponent } from "./components/StackComponent";
 import { GridComponent } from "./components/GridComponent";
+import { CardComponent } from "./components/CardComponent";
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 					<Route path="/box" element={<BoxComponent />} />
 					<Route path="/stack" element={<StackComponent />} />
 					<Route path="/grid" element={<GridComponent />} />
+					<Route path="/card" element={<CardComponent />} />
 				</Routes>
 			</Container>
 		</>
