@@ -11,6 +11,7 @@ import { SelectComponent } from "./components/SelectComponent";
 import { CheckBoxComponent } from "./components/CheckBoxComponent";
 import { AutoCompleteComponent } from "./components/AutoCompleteComponent";
 import { BoxComponent } from "./components/BoxComponent";
+import { StackComponent } from "./components/StackComponent";
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 					<Route path="/checkbox" element={<CheckBoxComponent />} />
 					<Route path="/autocomplete" element={<AutoCompleteComponent />} />
 					<Route path="/box" element={<BoxComponent />} />
+					<Route path="/stack" element={<StackComponent />} />
 				</Routes>
 			</Container>
 		</>
