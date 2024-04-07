@@ -17,6 +17,7 @@ import { CardComponent } from "./components/CardComponent";
 import { AppBarComponent } from "./components/AppBarComponent";
 import { ImageListComponent } from "./components/ImageListComponent";
 import { PaperComponent } from "./components/PaperComponent";
+import { LinkComponent } from "./components/LinkComponent";
 
 function App() {
 	return (
@@ -38,6 +39,7 @@ function App() {
 					<Route path="/card" element={<CardComponent />} />
 					<Route path="/imagelist" element={<ImageListComponent />} />
 					<Route path="/paper" element={<PaperComponent />} />
+					<Route path="/link" element={<LinkComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
