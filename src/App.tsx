@@ -16,6 +16,7 @@ import { GridComponent } from "./components/GridComponent";
 import { CardComponent } from "./components/CardComponent";
 import { AppBarComponent } from "./components/AppBarComponent";
 import { ImageListComponent } from "./components/ImageListComponent";
+import { PaperComponent } from "./components/PaperComponent";
 
 function App() {
 	return (
@@ -36,6 +37,7 @@ function App() {
 					<Route path="/grid" element={<GridComponent />} />
 					<Route path="/card" element={<CardComponent />} />
 					<Route path="/imagelist" element={<ImageListComponent />} />
+					<Route path="/paper" element={<PaperComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
