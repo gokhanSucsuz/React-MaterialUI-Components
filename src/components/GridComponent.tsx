@@ -10,13 +10,13 @@ export const GridComponent = () => {
 		color: theme.palette.text.secondary,
 	}));
 	return (
-		<Box>
-			<Grid container>
+		<Box sx={{ mt: "120px" }}>
+			<Grid container gap={2}>
 				<Grid item xs={12} md={8}>
 					<Item>8 units</Item>
 				</Grid>
-				<Grid item xs={12} md={4}>
-					<Item>4 units</Item>
+				<Grid item xs={12} md={3}>
+					<Item>3 units</Item>
 				</Grid>
 				<Grid item xs={12} md={8}>
 					<Item>8 units</Item>

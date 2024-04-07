@@ -19,7 +19,7 @@ export const CardComponent = () => {
 		color: theme.palette.text.secondary,
 	}));
 	return (
-		<Grid container spacing={2}>
+		<Grid container spacing={2} sx={{ mt: "120px" }}>
 			<Grid item xs={12} lg={6}>
 				<Item>
 					<Card

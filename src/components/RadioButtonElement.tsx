@@ -23,7 +23,7 @@ export const RadioButtonElement = () => {
 				alignItems="center"
 				gap={4}
 				p={2}
-				sx={{ border: "2px solid grey" }}>
+				sx={{ border: "2px solid grey", marginTop: "120px" }}>
 				<FormControl>
 					<FormLabel id="demo">Gender</FormLabel>
 					<RadioGroup name="demo" value={value} onChange={handleChange}>

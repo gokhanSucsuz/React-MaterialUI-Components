@@ -22,7 +22,10 @@ export const CheckBoxComponent = () => {
 			: setKnowledge(knowledge.filter((item) => item !== e.target.value));
 	};
 	return (
-		<>
+		<div
+			style={{
+				marginTop: "120px",
+			}}>
 			<Box>
 				<FormControl>
 					<FormLabel>Which team is your best?</FormLabel>
@@ -80,6 +83,6 @@ export const CheckBoxComponent = () => {
 					</FormGroup>
 				</FormControl>
 			</Box>
-		</>
+		</div>
 	);
 };

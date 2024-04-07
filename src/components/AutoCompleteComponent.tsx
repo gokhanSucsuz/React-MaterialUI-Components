@@ -130,6 +130,7 @@ export const AutoCompleteComponent = () => {
 	return (
 		<>
 			<Autocomplete
+				sx={{ mt: "120px" }}
 				options={top100Films}
 				renderInput={(params) => <TextField {...params} label="Films" />}
 			/>

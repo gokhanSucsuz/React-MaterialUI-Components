@@ -32,7 +32,10 @@ export const SelectComponent = () => {
 		);
 	};
 	return (
-		<>
+		<div
+			style={{
+				marginTop: "120px",
+			}}>
 			<Box>
 				{/* <TextField
 					variant="outlined"
@@ -78,6 +81,6 @@ export const SelectComponent = () => {
 					<MenuItem value="USA">United States of America</MenuItem>
 				</Select>
 			</Box>
-		</>
+		</div>
 	);
 };

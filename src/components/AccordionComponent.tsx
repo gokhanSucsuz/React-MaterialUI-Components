@@ -9,13 +9,16 @@ import React, { useState } from "react";
 
 export const AccordionComponent = () => {
 	const [expanded, setExpanded] = useState<string | boolean>(false);
-
+	console.log(expanded);
 	const handleChange =
 		(panel: string) => (e: React.SyntheticEvent, isExpanded: boolean) => {
 			setExpanded(isExpanded ? panel : false);
 		};
 	return (
-		<>
+		<div
+			style={{
+				marginTop: "120px",
+			}}>
 			<Accordion
 				expanded={expanded === "panel1"}
 				onChange={handleChange("panel1")}>
@@ -64,6 +67,6 @@ export const AccordionComponent = () => {
 					deserunt nihil vitae perferendis fugit atque quod officiis iure.
 				</AccordionDetails>
 			</Accordion>
-		</>
+		</div>
 	);
 };

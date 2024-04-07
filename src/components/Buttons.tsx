@@ -3,7 +3,10 @@ import { Box, Button, ButtonGroup, Stack, Typography } from "@mui/material";
 
 const Buttons = () => {
 	return (
-		<>
+		<div
+			style={{
+				marginTop: "120px",
+			}}>
 			<Stack spacing={{ xs: 2, sm: 3, md: 4 }}>
 				<Box component="section" sx={{ p: 2, border: "1px dashed grey" }}>
 					<Typography variant="h4" align="justify">
@@ -67,7 +70,7 @@ const Buttons = () => {
 					</ButtonGroup>
 				</Box>
 			</Stack>
-		</>
+		</div>
 	);
 };
 

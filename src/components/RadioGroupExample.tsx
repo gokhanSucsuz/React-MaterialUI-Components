@@ -30,9 +30,12 @@ export const RadioGroupExample = () => {
 		}
 	};
 	return (
-		<>
+		<div
+			style={{
+				marginTop: "120px",
+			}}>
 			<form onSubmit={handleSubmit}>
-				<FormControl  error={error}>
+				<FormControl error={error}>
 					<FormLabel>What is your name?</FormLabel>
 					<RadioGroup value={value} onChange={(e) => setValue(e.target.value)}>
 						<FormControlLabel
@@ -53,6 +56,6 @@ export const RadioGroupExample = () => {
 					</Button>
 				</FormControl>
 			</form>
-		</>
+		</div>
 	);
 };

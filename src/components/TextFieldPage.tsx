@@ -12,7 +12,10 @@ import { useState } from "react";
 export const TextFieldPage = () => {
 	const [value, setValue] = useState("");
 	return (
-		<>
+		<div
+			style={{
+				marginTop: "120px",
+			}}>
 			<Stack spacing={1} direction="row">
 				<TextField error label="lined" variant="outlined" />
 				<TextField label="Outlined" variant="standard" />
@@ -49,6 +52,6 @@ export const TextFieldPage = () => {
 					helperText={!value ? "Please type anything..." : ""}
 				/>
 			</Stack>
-		</>
+		</div>
 	);
 };

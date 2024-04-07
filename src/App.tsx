@@ -14,7 +14,8 @@ import { BoxComponent } from "./components/BoxComponent";
 import { StackComponent } from "./components/StackComponent";
 import { GridComponent } from "./components/GridComponent";
 import { CardComponent } from "./components/CardComponent";
-import { AccordionComponent } from "./components/AccordionComponent";
+import { AppBarComponent } from "./components/AppBarComponent";
+import { ImageListComponent } from "./components/ImageListComponent";
 
 function App() {
 	return (
@@ -34,9 +35,10 @@ function App() {
 					<Route path="/stack" element={<StackComponent />} />
 					<Route path="/grid" element={<GridComponent />} />
 					<Route path="/card" element={<CardComponent />} />
-					<Route path="/accordion" element={<AccordionComponent />} />
+					<Route path="/imagelist" element={<ImageListComponent />} />
 				</Routes>
 			</Container>
+			<AppBarComponent />
 		</>
 	);
 }

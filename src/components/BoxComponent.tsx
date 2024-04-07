@@ -6,6 +6,7 @@ export const BoxComponent = () => {
 		<>
 			<Box
 				sx={{
+					marginTop: "120px",
 					backgroundColor: "error.light",
 					width: 100,
 					height: 100,

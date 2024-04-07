@@ -4,6 +4,7 @@ export const StackComponent = () => {
 	return (
 		<>
 			<Stack
+				sx={{ mt: "120px" }}
 				justifyContent="center"
 				alignItems="center"
 				direction={{
