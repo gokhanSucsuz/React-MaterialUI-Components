@@ -8,6 +8,7 @@ import {
 	Stack,
 	Typography,
 } from "@mui/material";
+import { ExpandMore } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
 
 export const Nav = () => {
@@ -21,6 +22,7 @@ export const Nav = () => {
 					<Stack spacing={{ xs: 1, sm: 2 }} useFlexGap flexWrap="wrap">
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel1-content"
 								id="panel1-header">
 								Typography
@@ -38,6 +40,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel1-content"
 								id="panel1-header">
 								Buttons
@@ -55,6 +58,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								TextField
@@ -71,6 +75,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Radio Group
@@ -94,6 +99,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Select
@@ -110,6 +116,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Checkbox
@@ -126,6 +133,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Auto Complete
@@ -142,6 +150,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Box
@@ -158,6 +167,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Stack Component
@@ -174,6 +184,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Grid
@@ -190,6 +201,7 @@ export const Nav = () => {
 						</Accordion>
 						<Accordion>
 							<AccordionSummary
+								expandIcon={<ExpandMore />}
 								aria-controls="panel3-content"
 								id="panel3-header">
 								Card
