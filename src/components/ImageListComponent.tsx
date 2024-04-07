@@ -1,4 +1,10 @@
-import { ImageList, ImageListItem } from "@mui/material";
+import { Info } from "@mui/icons-material";
+import {
+	IconButton,
+	ImageList,
+	ImageListItem,
+	ImageListItemBar,
+} from "@mui/material";
 import React from "react";
 
 export const ImageListComponent = () => {
@@ -18,9 +24,26 @@ export const ImageListComponent = () => {
 					</ImageListItem>
 				))}
 			</ImageList>
-			<ImageList sx={{ width: 500, height: 450 }} variant="quilted" cols={3}>
+			<ImageList
+				sx={{ width: "500px", height: "450px" }}
+				variant="woven"
+				cols={2}>
 				{itemData2.map((item) => (
 					<ImageListItem key={item.img}>
+						<ImageListItemBar
+							title={item.title}
+							subtitle={item.author}
+							actionIcon={
+								<IconButton title={item.title}>
+									<Info
+										sx={{
+											backgroundColor: "white",
+											borderRadius: "10px",
+										}}
+									/>
+								</IconButton>
+							}
+						/>
 						<img src={item.img} alt="" loading="lazy" />
 					</ImageListItem>
 				))}
