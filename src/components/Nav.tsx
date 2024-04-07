@@ -216,6 +216,23 @@ export const Nav = () => {
 								</Button>
 							</AccordionActions>
 						</Accordion>
+						<Accordion>
+							<AccordionSummary
+								expandIcon={<ExpandMore />}
+								aria-controls="panel3-content"
+								id="panel3-header">
+								Accordion
+							</AccordionSummary>
+							<AccordionActions>
+								<Button variant="contained">
+									<NavLink
+										to="/accordion"
+										style={{ color: "inherit", textDecoration: "none" }}>
+										Accordion
+									</NavLink>
+								</Button>
+							</AccordionActions>
+						</Accordion>
 					</Stack>
 				</div>
 			</Box>

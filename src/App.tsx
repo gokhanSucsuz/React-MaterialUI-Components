@@ -14,6 +14,7 @@ import { BoxComponent } from "./components/BoxComponent";
 import { StackComponent } from "./components/StackComponent";
 import { GridComponent } from "./components/GridComponent";
 import { CardComponent } from "./components/CardComponent";
+import { AccordionComponent } from "./components/AccordionComponent";
 
 function App() {
 	return (
@@ -33,6 +34,7 @@ function App() {
 					<Route path="/stack" element={<StackComponent />} />
 					<Route path="/grid" element={<GridComponent />} />
 					<Route path="/card" element={<CardComponent />} />
+					<Route path="/accordion" element={<AccordionComponent />} />
 				</Routes>
 			</Container>
 		</>
