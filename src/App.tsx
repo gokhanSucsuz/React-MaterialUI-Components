@@ -20,6 +20,7 @@ import { PaperComponent } from "./components/PaperComponent";
 import { LinkComponent } from "./components/LinkComponent";
 import { BreadcrumbsComponent } from "./components/BreadcrumbsComponent";
 import { DrawerComponent } from "./components/DrawerComponent";
+import { BadgeComponent } from "./components/BadgeComponent";
 
 function App() {
 	return (
@@ -44,6 +45,7 @@ function App() {
 					<Route path="/link" element={<LinkComponent />} />
 					<Route path="/breadcrumbs" element={<BreadcrumbsComponent />} />
 					<Route path="/drawer" element={<DrawerComponent />} />
+					<Route path="/badge" element={<BadgeComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
