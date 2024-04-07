@@ -124,6 +124,38 @@ export const Nav = () => {
 								</Button>
 							</AccordionActions>
 						</Accordion>
+						<Accordion>
+							<AccordionSummary
+								aria-controls="panel3-content"
+								id="panel3-header">
+								Auto Complete
+							</AccordionSummary>
+							<AccordionActions>
+								<Button variant="contained">
+									<NavLink
+										to="/autocomplete"
+										style={{ color: "inherit", textDecoration: "none" }}>
+										Auto Complete
+									</NavLink>
+								</Button>
+							</AccordionActions>
+						</Accordion>
+						<Accordion>
+							<AccordionSummary
+								aria-controls="panel3-content"
+								id="panel3-header">
+								Box
+							</AccordionSummary>
+							<AccordionActions>
+								<Button variant="contained">
+									<NavLink
+										to="/box"
+										style={{ color: "inherit", textDecoration: "none" }}>
+										Box
+									</NavLink>
+								</Button>
+							</AccordionActions>
+						</Accordion>
 					</Stack>
 				</div>
 			</Box>
