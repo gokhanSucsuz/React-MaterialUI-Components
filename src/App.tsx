@@ -19,6 +19,7 @@ import { ImageListComponent } from "./components/ImageListComponent";
 import { PaperComponent } from "./components/PaperComponent";
 import { LinkComponent } from "./components/LinkComponent";
 import { BreadcrumbsComponent } from "./components/BreadcrumbsComponent";
+import { DrawerComponent } from "./components/DrawerComponent";
 
 function App() {
 	return (
@@ -42,6 +43,7 @@ function App() {
 					<Route path="/paper" element={<PaperComponent />} />
 					<Route path="/link" element={<LinkComponent />} />
 					<Route path="/breadcrumbs" element={<BreadcrumbsComponent />} />
+					<Route path="/drawer" element={<DrawerComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
