@@ -12,6 +12,7 @@ import { CheckBoxComponent } from "./components/CheckBoxComponent";
 import { AutoCompleteComponent } from "./components/AutoCompleteComponent";
 import { BoxComponent } from "./components/BoxComponent";
 import { StackComponent } from "./components/StackComponent";
+import { GridComponent } from "./components/GridComponent";
 
 function App() {
 	return (
@@ -29,6 +30,7 @@ function App() {
 					<Route path="/autocomplete" element={<AutoCompleteComponent />} />
 					<Route path="/box" element={<BoxComponent />} />
 					<Route path="/stack" element={<StackComponent />} />
+					<Route path="/grid" element={<GridComponent />} />
 				</Routes>
 			</Container>
 		</>
