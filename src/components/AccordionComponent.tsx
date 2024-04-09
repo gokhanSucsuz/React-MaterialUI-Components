@@ -12,7 +12,7 @@ export const AccordionComponent = () => {
 	console.log(expanded);
 	const handleChange =
 		(panel: string) => (e: React.SyntheticEvent, isExpanded: boolean) => {
-			e;
+			console.log(e.target);
 			setExpanded(isExpanded ? panel : false);
 		};
 	return (

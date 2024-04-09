@@ -18,6 +18,7 @@ export const Nav = () => {
 	const handleChange =
 		(panel: string) => (e: React.SyntheticEvent, isExpanded: boolean) => {
 			setExpanded(isExpanded ? panel : false);
+			console.log(e.target);
 		};
 	return (
 		<>

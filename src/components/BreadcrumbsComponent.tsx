@@ -1,5 +1,4 @@
 import { Breadcrumbs, Link } from "@mui/material";
-import React from "react";
 
 export const BreadcrumbsComponent = () => {
 	return (

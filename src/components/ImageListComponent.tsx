@@ -5,8 +5,6 @@ import {
 	ImageListItem,
 	ImageListItemBar,
 } from "@mui/material";
-import React from "react";
-
 export const ImageListComponent = () => {
 	return (
 		<>

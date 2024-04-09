@@ -1,6 +1,6 @@
 import { Close } from "@mui/icons-material";
 import { Button, IconButton, Snackbar, Stack } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const SnackBarComponent = () => {
 	const [snackbar, setSnackbar] = useState(false);

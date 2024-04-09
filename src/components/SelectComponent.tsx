@@ -17,11 +17,11 @@ export const SelectComponent = () => {
 	// 	setCountry(e.target.value);
 	// };
 	console.log(countries);
-	const handleChangeMultiple = (e: React.ChangeEvent) => {
+	const handleChangeMultiple = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setCountries(
-			typeof e.target.value === "string"
-				? e.target.value.split(",")
-				: e.target.value
+			typeof e.currentTarget.value === "string"
+				? e.currentTarget.value.split(",")
+				: e.currentTarget.value
 		);
 	};
 	const handleChangeMultiple2 = (e: SelectChangeEvent) => {

@@ -1,6 +1,4 @@
 import { Link, Stack } from "@mui/material";
-import React from "react";
-
 export const LinkComponent = () => {
 	return (
 		<Stack

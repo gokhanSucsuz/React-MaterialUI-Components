@@ -1,5 +1,4 @@
 import { Box, Grid, Paper, styled } from "@mui/material";
-import React from "react";
 
 export const GridComponent = () => {
 	const Item = styled(Paper)(({ theme }) => ({
