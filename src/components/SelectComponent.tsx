@@ -71,7 +71,7 @@ export const SelectComponent = () => {
 					multiple
 					variant="standard"
 					defaultValue="x"
-					value={countries}
+					value={countries.toString()}
 					input={<OutlinedInput label="Country" />}
 					fullWidth
 					onChange={handleChangeMultiple2}>
