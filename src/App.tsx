@@ -29,6 +29,7 @@ import { ToolTipComponent } from "./components/ToolTipComponent";
 import { AlertComponent } from "./components/AlertComponent";
 import { DialogComponent } from "./components/DialogComponent";
 import { SnackBarComponent } from "./components/SnackBarComponent";
+import { Progress } from "./components/Progress";
 
 function App() {
 	return (
@@ -65,6 +66,7 @@ function App() {
 					<Route path="/alert" element={<AlertComponent />} />
 					<Route path="/dialog" element={<DialogComponent />} />
 					<Route path="/snackbar" element={<SnackBarComponent />} />
+					<Route path="/progress" element={<Progress />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
