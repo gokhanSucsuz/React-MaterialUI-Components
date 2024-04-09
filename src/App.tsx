@@ -31,6 +31,7 @@ import { DialogComponent } from "./components/DialogComponent";
 import { SnackBarComponent } from "./components/SnackBarComponent";
 import { Progress } from "./components/Progress";
 import { AccordionComponent } from "./components/AccordionComponent";
+import { SkeletonComponent } from "./SkeletonComponent";
 
 function App() {
 	return (
@@ -69,6 +70,7 @@ function App() {
 					<Route path="/snackbar" element={<SnackBarComponent />} />
 					<Route path="/progress" element={<Progress />} />
 					<Route path="/accordion" element={<AccordionComponent />} />
+					<Route path="/skeleton" element={<SkeletonComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
