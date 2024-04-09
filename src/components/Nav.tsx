@@ -676,14 +676,35 @@ export const Nav = () => {
 										expandIcon={<ExpandMore />}
 										aria-controls="panel30-content"
 										id="panel30-header">
-										Data Picker & Time Picker
+										Date Picker & Time Picker
 									</AccordionSummary>
 									<AccordionActions>
 										<Button variant="contained">
 											<NavLink
 												to="/datepicker-timepicker"
 												style={{ color: "inherit", textDecoration: "none" }}>
-												Data Picker & Time Picker
+												Date Picker & Time Picker
+											</NavLink>
+										</Button>
+									</AccordionActions>
+								</Accordion>
+							</Grid>
+							<Grid item xs={12} md={5}>
+								<Accordion
+									expanded={expanded === "panel31"}
+									onChange={handleChange("panel31")}>
+									<AccordionSummary
+										expandIcon={<ExpandMore />}
+										aria-controls="panel31-content"
+										id="panel31-header">
+										Date Range
+									</AccordionSummary>
+									<AccordionActions>
+										<Button variant="contained">
+											<NavLink
+												to="/daterange"
+												style={{ color: "inherit", textDecoration: "none" }}>
+												Date Range
 											</NavLink>
 										</Button>
 									</AccordionActions>

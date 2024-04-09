@@ -6,7 +6,7 @@ import { AdapterMoment } from "@mui/x-date-pickers/AdapterMoment";
 import { useState } from "react";
 import { Moment } from "moment";
 
-export const DataPickerAndTimePicker = () => {
+export const DatePickerAndTimePicker = () => {
 	const [date, setDate] = useState<Moment | null>(null);
 	const [time, setTime] = useState<Moment | null>(null);
 
