@@ -22,6 +22,7 @@ import { BreadcrumbsComponent } from "./components/BreadcrumbsComponent";
 import { DrawerComponent } from "./components/DrawerComponent";
 import { BadgeComponent } from "./components/BadgeComponent";
 import { SpeedDialComponent } from "./components/SpeedDialComponent";
+import { BottomNavigationComponent } from "./components/BottomNavigationComponent";
 
 function App() {
 	return (
@@ -48,6 +49,10 @@ function App() {
 					<Route path="/drawer" element={<DrawerComponent />} />
 					<Route path="/badge" element={<BadgeComponent />} />
 					<Route path="/dial" element={<SpeedDialComponent />} />
+					<Route
+						path="/bottom-navigation"
+						element={<BottomNavigationComponent />}
+					/>
 				</Routes>
 			</Container>
 			<AppBarComponent />
