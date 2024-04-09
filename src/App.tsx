@@ -25,6 +25,7 @@ import { SpeedDialComponent } from "./components/SpeedDialComponent";
 import { BottomNavigationComponent } from "./components/BottomNavigationComponent";
 import { AvatarComponent } from "./components/AvatarComponent";
 import { ListComponent } from "./components/ListComponent";
+import { ToolTipComponent } from "./components/ToolTipComponent";
 
 function App() {
 	return (
@@ -57,6 +58,7 @@ function App() {
 					/>
 					<Route path="/avatar" element={<AvatarComponent />} />
 					<Route path="/list" element={<ListComponent />} />
+					<Route path="/tooltip" element={<ToolTipComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
