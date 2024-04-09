@@ -34,6 +34,7 @@ import { AccordionComponent } from "./components/AccordionComponent";
 import { SkeletonComponent } from "./SkeletonComponent";
 import { LoadingComponent } from "./components/LoadingComponent";
 import { TableComponent } from "./components/TableComponent";
+import { DataPickerAndTimePicker } from "./components/DatePickerAndTimePicker";
 
 function App() {
 	return (
@@ -75,6 +76,10 @@ function App() {
 					<Route path="/skeleton" element={<SkeletonComponent />} />
 					<Route path="/loading-button" element={<LoadingComponent />} />
 					<Route path="/table" element={<TableComponent />} />
+					<Route
+						path="/datepicker-timepicker"
+						element={<DataPickerAndTimePicker />}
+					/>
 				</Routes>
 			</Container>
 			<AppBarComponent />
