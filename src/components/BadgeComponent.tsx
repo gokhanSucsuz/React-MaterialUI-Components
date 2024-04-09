@@ -1,6 +1,5 @@
 import { Mail } from "@mui/icons-material";
 import { Badge, Stack } from "@mui/material";
-import React from "react";
 
 export const BadgeComponent = () => {
 	return (

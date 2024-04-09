@@ -15,7 +15,7 @@ export const BottomNavigationComponent = () => {
 				<BottomNavigation
 					showLabels
 					value={value}
-					onChange={(e, newValue) => setValue(newValue)}>
+					onChange={(_e, newValue) => setValue(newValue)}>
 					<BottomNavigationAction icon={<Restore />} label="Recent" />
 					<BottomNavigationAction icon={<Favorite />} label="Favorites" />
 					<BottomNavigationAction icon={<LocationOn />} label="LocationOn" />

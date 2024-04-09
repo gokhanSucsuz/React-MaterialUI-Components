@@ -30,6 +30,7 @@ import { AlertComponent } from "./components/AlertComponent";
 import { DialogComponent } from "./components/DialogComponent";
 import { SnackBarComponent } from "./components/SnackBarComponent";
 import { Progress } from "./components/Progress";
+import { AccordionComponent } from "./components/AccordionComponent";
 
 function App() {
 	return (
@@ -67,6 +68,7 @@ function App() {
 					<Route path="/dialog" element={<DialogComponent />} />
 					<Route path="/snackbar" element={<SnackBarComponent />} />
 					<Route path="/progress" element={<Progress />} />
+					<Route path="/accordion" element={<AccordionComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
