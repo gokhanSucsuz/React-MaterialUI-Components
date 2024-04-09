@@ -415,6 +415,27 @@ export const Nav = () => {
 									</AccordionActions>
 								</Accordion>
 							</Grid>
+							<Grid item xs={12} md={5}>
+								<Accordion
+									expanded={expanded === "panel18"}
+									onChange={handleChange("panel18")}>
+									<AccordionSummary
+										expandIcon={<ExpandMore />}
+										aria-controls="panel18-content"
+										id="panel18-header">
+										Dial
+									</AccordionSummary>
+									<AccordionActions>
+										<Button variant="contained">
+											<NavLink
+												to="/dial"
+												style={{ color: "inherit", textDecoration: "none" }}>
+												Dial
+											</NavLink>
+										</Button>
+									</AccordionActions>
+								</Accordion>
+							</Grid>
 						</Grid>
 					</Stack>
 				</div>

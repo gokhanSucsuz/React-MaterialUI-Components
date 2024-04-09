@@ -21,6 +21,7 @@ import { LinkComponent } from "./components/LinkComponent";
 import { BreadcrumbsComponent } from "./components/BreadcrumbsComponent";
 import { DrawerComponent } from "./components/DrawerComponent";
 import { BadgeComponent } from "./components/BadgeComponent";
+import { SpeedDialComponent } from "./components/SpeedDialComponent";
 
 function App() {
 	return (
@@ -46,6 +47,7 @@ function App() {
 					<Route path="/breadcrumbs" element={<BreadcrumbsComponent />} />
 					<Route path="/drawer" element={<DrawerComponent />} />
 					<Route path="/badge" element={<BadgeComponent />} />
+					<Route path="/dial" element={<SpeedDialComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
