@@ -24,6 +24,7 @@ import { BadgeComponent } from "./components/BadgeComponent";
 import { SpeedDialComponent } from "./components/SpeedDialComponent";
 import { BottomNavigationComponent } from "./components/BottomNavigationComponent";
 import { AvatarComponent } from "./components/AvatarComponent";
+import { ListComponent } from "./components/ListComponent";
 
 function App() {
 	return (
@@ -55,6 +56,7 @@ function App() {
 						element={<BottomNavigationComponent />}
 					/>
 					<Route path="/avatar" element={<AvatarComponent />} />
+					<Route path="/list" element={<ListComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
