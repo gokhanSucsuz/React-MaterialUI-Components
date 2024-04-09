@@ -36,6 +36,7 @@ import { LoadingComponent } from "./components/LoadingComponent";
 import { TableComponent } from "./components/TableComponent";
 import { DatePickerAndTimePicker } from "./components/DatePickerAndTimePicker";
 import { DateRangeComponent } from "./components/DateRangeComponent";
+import { TabsComponent } from "./components/TabsComponent";
 
 function App() {
 	return (
@@ -82,6 +83,7 @@ function App() {
 						element={<DatePickerAndTimePicker />}
 					/>
 					<Route path="/daterange" element={<DateRangeComponent />} />
+					<Route path="/tabs" element={<TabsComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
