@@ -77,7 +77,9 @@ export const Progress = () => {
 					</Typography>
 				</Box>
 				<LinearProgress variant="determinate" value={value} color="secondary" />
-				<Button onClick={() => setValue(value + 10)}>Increase</Button>
+				<Button onClick={() => setValue(value + 10)}>
+					Click Increase Progressbar
+				</Button>
 			</Stack>
 		</>
 	);
