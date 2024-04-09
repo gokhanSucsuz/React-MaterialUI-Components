@@ -24,7 +24,7 @@ export const SelectComponent = () => {
 				: e.currentTarget.value
 		);
 	};
-	const handleChangeMultiple2 = (e: SelectChangeEvent) => {
+	const handleChangeMultiple2 = (e: SelectChangeEvent<string[]>) => {
 		setCountries(
 			typeof e.target.value === "string"
 				? e.target.value.split(",")
@@ -70,8 +70,7 @@ export const SelectComponent = () => {
 					labelId="demo-label"
 					multiple
 					variant="standard"
-					defaultValue="x"
-					value={countries.toString()}
+					value={countries}
 					input={<OutlinedInput label="Country" />}
 					fullWidth
 					onChange={handleChangeMultiple2}>
