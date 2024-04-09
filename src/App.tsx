@@ -26,6 +26,7 @@ import { BottomNavigationComponent } from "./components/BottomNavigationComponen
 import { AvatarComponent } from "./components/AvatarComponent";
 import { ListComponent } from "./components/ListComponent";
 import { ToolTipComponent } from "./components/ToolTipComponent";
+import { AlertComponent } from "./components/AlertComponent";
 
 function App() {
 	return (
@@ -59,6 +60,7 @@ function App() {
 					<Route path="/avatar" element={<AvatarComponent />} />
 					<Route path="/list" element={<ListComponent />} />
 					<Route path="/tooltip" element={<ToolTipComponent />} />
+					<Route path="/alert" element={<AlertComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
