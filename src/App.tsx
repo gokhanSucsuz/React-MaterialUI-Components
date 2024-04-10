@@ -2,7 +2,7 @@ import "./App.css";
 import Buttons from "./components/Buttons";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import { Container } from "@mui/material";
+import { colors, Container, createTheme, ThemeProvider } from "@mui/material";
 import Typography from "./components/Typography";
 import { TextFieldPage } from "./components/TextFieldPage";
 import { RadioButtonElement } from "./components/RadioButtonElement";
@@ -39,10 +39,19 @@ import { DateRangeComponent } from "./components/DateRangeComponent";
 import { TabsComponent } from "./components/TabsComponent";
 import { MasonryComponent } from "./components/MasonryComponent";
 import { TimeLineComponent } from "./components/TimeLineComponent";
+import { ThemeCustomize } from "./components/ThemeCustomize";
+
+const theme = createTheme({
+	palette: {
+		secondary: {
+			main: colors.blueGrey[800],
+		},
+	},
+});
 
 function App() {
 	return (
-		<>
+		<ThemeProvider theme={theme}>
 			<Container maxWidth="sm">
 				<Routes>
 					<Route path="/" element={<Home />} />
@@ -88,10 +97,11 @@ function App() {
 					<Route path="/tabs" element={<TabsComponent />} />
 					<Route path="/masonry" element={<MasonryComponent />} />
 					<Route path="/timeline" element={<TimeLineComponent />} />
+					<Route path="/theme-customize" element={<ThemeCustomize />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
-		</>
+		</ThemeProvider>
 	);
 }
 
