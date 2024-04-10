@@ -3,6 +3,7 @@ import {
 	AccordionActions,
 	AccordionDetails,
 	AccordionSummary,
+	Alert,
 	Box,
 	Button,
 	Grid,
@@ -21,8 +22,8 @@ export const Nav = () => {
 		};
 	return (
 		<Box sx={{ mt: "90px", mb: "20px" }}>
-			<Typography variant="h6" component="div" sx={{ flexGrow: 4 }}>
-				MUI Components Example
+			<Typography variant="h6" component="div" sx={{ marginBottom: "20px" }}>
+				<Alert severity="info">MUI Components Example</Alert>
 			</Typography>
 			<Grid container gap={1}>
 				<Grid item xs={12} sm={5} md={3} lg={2}>

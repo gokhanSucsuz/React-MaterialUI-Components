@@ -1,10 +1,13 @@
+import { Alert } from "@mui/material";
 import { Nav } from "./components/Nav";
 
 const Home = () => {
 	return (
 		<>
 			<Nav />
-			This is a project that contains MaterialUI Components
+			<Alert severity="info">
+				This is a project that contains MaterialUI Components
+			</Alert>
 		</>
 	);
 };
