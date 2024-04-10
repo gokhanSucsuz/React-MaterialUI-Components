@@ -38,6 +38,7 @@ import { DatePickerAndTimePicker } from "./components/DatePickerAndTimePicker";
 import { DateRangeComponent } from "./components/DateRangeComponent";
 import { TabsComponent } from "./components/TabsComponent";
 import { MasonryComponent } from "./components/MasonryComponent";
+import { TimeLineComponent } from "./components/TimeLineComponent";
 
 function App() {
 	return (
@@ -86,6 +87,7 @@ function App() {
 					<Route path="/daterange" element={<DateRangeComponent />} />
 					<Route path="/tabs" element={<TabsComponent />} />
 					<Route path="/masonry" element={<MasonryComponent />} />
+					<Route path="/timeline" element={<TimeLineComponent />} />
 				</Routes>
 			</Container>
 			<AppBarComponent />
