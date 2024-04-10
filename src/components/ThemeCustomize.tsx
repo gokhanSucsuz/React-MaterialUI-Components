@@ -1,4 +1,3 @@
-import { Info } from "@mui/icons-material";
 import { Box, Button, ButtonGroup, colors, createTheme } from "@mui/material";
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
