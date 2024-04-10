@@ -52,7 +52,7 @@ const theme = createTheme({
 function App() {
 	return (
 		<ThemeProvider theme={theme}>
-			<Container maxWidth="sm">
+			<Container maxWidth="xl">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/buttons" element={<Buttons />} />
