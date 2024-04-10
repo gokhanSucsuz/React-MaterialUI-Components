@@ -8,4 +8,4 @@ Typescript, MaterialUI, React Router Dom vs...
 
 https://react-material-ui-components.vercel.app/
 
-https://react-materialuicomponents.netlify.app/progress
+https://react-materialuicomponents.netlify.app/
